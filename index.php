@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Hasil Seleksi SNMPTN 2019</title>
+    <title>Hasil Seleksi SNMPTN LTPMPT 2019</title>
     <!--link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous"-->
     <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
     <script src="merge.js" type="text/javascript"></script>
@@ -17,12 +17,12 @@
         var x = document.forms["snm"]["regno"].value;
         var y = document.forms["snm"]["nisn"].value;
         if (x.length !== 10) {
-            setTimeout(function () { swal("Invalid!","Nomor Pendaftaran harus berjumlah 10","error")}, 1000);
+            setTimeout(function () { swal("Invalid!","Nomor Pendaftaran harus berjumlah 10 diyaa yaa","error")}, 1000);
             //alert("Nomor Pendaftaran harus berjumlah 10!");
             return false;
         }
         if (y.length !== 10) {
-            setTimeout(function () { swal("Invalid!","NISN harus berjumlah 10","error")}, 1000);
+            setTimeout(function () { swal("Invalid!","NISN harus berjumlah 10 digit yaa","error")}, 1000);
             //alert("NISN harus berjumlah 10!");
             return false;
         }
@@ -55,14 +55,14 @@
         <div class="navbar navbar-default navbar-static-top">
             <div class="container" style="padding-top: 10px;">
                 <div class="navbar-header">
-                    <span class="h2"><a class="snmptn" href="http://www.snmptn.ac.id/">SNMPTN 2019</a> FAKE GENERATOR </span>
+                    <span class="h2"><a class="snmptn" href="http://www.snmptn.ac.id/">SNMPTN 2019</a> FAKE GENERATOR HASIL SELEKSI SNMPTN 2019 </span>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="well">
                 <fieldset>
-                    <legend>Masukkan Data</legend>
+                    <legend>Masukkan Data Peserta</legend>
                     <div class="form-group">
                         <form name="snm" method="POST" onsubmit="return validateForm()" action="generate.php">
 
